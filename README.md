@@ -15,9 +15,9 @@ First, I wanted to investigate the differences between the two-party popular vot
 
 <b> GOP Margin Gain, 2012-2016 </b>
 
-![](/Users/serhiysokhan/Desktop/SeniorYear/Gov1347/GOPMarginGainWithLabels.png) 
+![](Gov1347/GOPMarginGainWithLabels.png) 
 
-![](/Users/serhiysokhan/Desktop/SeniorYear/Gov1347/GOPMarginGainNoLabels.png) 
+![](Gov1347/GOPMarginGainNoLabels.png) 
 
 This map demonstrates how the popular vote changed on a state-by-state basis and is thus helpful in evaluating President Trump's 2016 win.  One interpretation of the map is that demonstrates how instrumental the Midwest was in Trump's 2016 win.  Michigan, for example, had a 9.84% swing to the Republicans.  Additionally, Wisconsin and Minnesota had 7.74% and 6.22% swings to the GOP, respectively.  On the map, the largest cluster of red is in the Midwest, communicating that Republicans had their highest gains in popular vote margins over the Democrats in that region. 
 
@@ -30,7 +30,7 @@ The margin changes in the Midwest and Southwest <b>may indicate a shifting elect
 
 In Part 2, I investigated how <b>incumbency advantage</b> relates to the <b>popular vote</b> between 1948 and 2016. I first filtered my data set to only include elections with an incumbent facing re-election. I then separated the incumbent wins and losses before plotting the data.  
 
-![](/Users/serhiysokhan/Desktop/SeniorYear/Gov1347/incumbentpopvote.png) 
+![](Gov1347/incumbentpopvote.png) 
 
 This visualization brings up two salient interpretations.  First, incumbents win more often than they lose.  Second, all incumbent presidents that have won since 1948 did so by winning at least 49% of the popular vote, while all incumbent presidents that lost received 47% of the popular vote or less.  These interpretations muddy the waters for President Trump's re-election chances.  On the one hand, he has the incumbent advantage, but on the other, his polling averages are consistently under the 49% earned by all incumbents that won re-election.
 
