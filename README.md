@@ -2,7 +2,7 @@
 Election Blog Post 1 - Serhiy Sokhan
 ---
 
-```{r setup, include=FALSE}
+```
 ```
 
 <b><font size="6">Blog Post 9/12/2020</b></font>
