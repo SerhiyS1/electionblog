@@ -5,7 +5,7 @@ Election Blog Post 1 - Serhiy Sokhan
 ```
 ```
 
-<b><font size="6">Blog Post 9/12/2020</b></font>
+<b><font size="6">Blog Post 9/12/2020</font></b> 
 
 The United States has an election this fall.  As it is the first presidential election I can vote in, I have been intensely following the campaign and seeking to become more knowledgeable on electoral politics.  I will utilize this blog to make predictions and models throughout and after the election period.  In this first blog post, I investigate the <b>popular vote</b>.  Specifically, I investigate a) the differences in popular vote by state between the 2012 and 2016 presidential elections, and b) how the popular vote relates to incumbency advantage.  
 
