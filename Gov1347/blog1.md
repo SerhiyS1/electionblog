@@ -10,9 +10,9 @@ First, I wanted to investigate the differences between the two-party popular vot
 
 <b> GOP Margin Gain, 2012-2016 </b>
 
-![](Gov1347/GOPMarginGainWithLabels.png) 
+![](/Gov1347/GOPMarginGainWithLabels.png) 
 
-![](Gov1347/GOPMarginGainNoLabels.png) 
+![](/Gov1347/GOPMarginGainNoLabels.png) 
 
 This map demonstrates how the popular vote changed on a state-by-state basis and is thus helpful in evaluating President Trump's 2016 win.  One interpretation of the map is that demonstrates how instrumental the Midwest was in Trump's 2016 win.  Michigan, for example, had a 9.84% swing to the Republicans.  Additionally, Wisconsin and Minnesota had 7.74% and 6.22% swings to the GOP, respectively.  On the map, the largest cluster of red is in the Midwest, communicating that Republicans had their highest gains in popular vote margins over the Democrats in that region. 
 
