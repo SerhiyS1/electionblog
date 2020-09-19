@@ -1,6 +1,6 @@
 
 
-<b><font size="6">Blog Post 9/12/2020</b></font>
+<b><font size="6">Blog Post 9/12/2020</font></b>
 
 The United States has an election this fall.  As it is the first presidential election I can vote in, I have been intensely following the campaign and seeking to become more knowledgeable on electoral politics.  I will utilize this blog to make predictions and models throughout and after the election period.  In this first blog post, I investigate the <b>popular vote</b>.  Specifically, I investigate a) the differences in popular vote by state between the 2012 and 2016 presidential elections, and b) how the popular vote relates to incumbency advantage.  
 
@@ -25,7 +25,7 @@ The margin changes in the Midwest and Southwest <b>may indicate a shifting elect
 
 In Part 2, I investigated how <b>incumbency advantage</b> relates to the <b>popular vote</b> between 1948 and 2016. I first filtered my data set to only include elections with an incumbent facing re-election. I then separated the incumbent wins and losses before plotting the data.  
 
-![](Gov1347/incumbentpopvote.png) 
+![](/Gov1347/incumbentpopvote.png) 
 
 This visualization brings up two salient interpretations.  First, incumbents win more often than they lose.  Second, all incumbent presidents that have won since 1948 did so by winning at least 49% of the popular vote, while all incumbent presidents that lost received 47% of the popular vote or less.  These interpretations muddy the waters for President Trump's re-election chances.  On the one hand, he has the incumbent advantage, but on the other, his polling averages are consistently under the 49% earned by all incumbents that won re-election.
 
