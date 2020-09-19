@@ -4,7 +4,7 @@ Election Blog Post 1 - Serhiy Sokhan
 
 ```
 ```
-[Blog Post 9/12/2020](Gov1347/blog1.Rmd)
+[Blog Post 9/12/2020](Gov1347/blog1.md)
 
 <b><font size="6">Blog Post 9/12/2020</font></b> 
 
