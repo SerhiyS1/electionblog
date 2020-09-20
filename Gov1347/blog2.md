@@ -6,14 +6,14 @@ Connecticut, my home state, has voted for the Democratic nominee for President e
 
 First, I wanted to investigate how the unemployment percentage affects the Democratic two-party vote share.  I thus created a graph that demonstrates the relationship between the Democratic two-party vote share and the unemployment percentage since 1992.  I included a line of best fit, with a y-intercept of 59.31% and slope of -0.2242.  A slope of -0.2242 means that for every 1% increase in the unemployment rate, the Democratic two-party vote share decreases by 0.22%.  This is in line with my theory that increasing unemployment in a blue state like Connecticut will decrease Democratic vote share.  However, the multiple R-squared on thihs model was just 0.02951, meaning that the unemployment percentage is not very responsible for the variability among the Democratic vote shares.
 
-![](/Gov1347/ctdemvotes.png)  
+![](/ctdemvotes.png)  
 
 
 <font size="4"><b> Part 2: Republican Vote Share Model</b></font>
 
 I then created a model for how the Connecticut unemployment rate affects the Republican vote share.  I created a graph, below, of the Connecticut GOP vote share versus the unemployment rate.  It is evident that the line of best fit in this graph has a positive slope, indicating that an increase in unemployment in Connecticut leads to higher Republican vote share in presidential elections.  The y-intercept of the line of best fit was 40.69% and the slope was 0.2242.  The multiple R-Squared was 0.02951 again, indicating the limitations of the CT unemployment percentage in predicting the variability of CT GOP vote share.  Using the leave-one-out method of model testing, the predicted GOP vote share for 2016 was 41.6%, a bit off from the actual 42.85% Donald Trump received. 
 
-![](/Gov1347/ctgopvotes.png) 
+![](/ctgopvotes.png) 
 
 
 
