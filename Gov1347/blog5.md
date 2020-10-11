@@ -1,0 +1,35 @@
+<font size="6"><b>Blog Post 10/10/2020: Advertisement Spending and Tipping Point States</b></font>
+
+This week, I investigate advertisement spending in four presidential elections - 2000, 2004, 2008, and 2012 - and what current advertisement spending looks like in the key states of the 2020 election.  Prominent media groups such as Kantar Media CMAG and Group M forecast the 2020 election to have potentially the most money spent on advertisements, with predictions of $6 billion and $10 billion respectively [1].  Consequently, I focus on political advertisement spending over time in Part 1 of this blog post.  In part 2, I focus on analyzing September 2020 advertisement spending in states that are likely to be the 2020 election tipping states.
+
+<font size="4"><b>Part 1: Total Advertising Spend Per Party, 2000-2012 </b></font>
+
+In Part 1, I analyzed data on the total advertising spend in the presidential elections between 2000 and 2012.  I used a dataset that includes all individual ad campaigns in these elections.  I grouped the data by cycle and party and graphed the outcomes below.
+
+![](/totalspend.png)  
+
+The data surprised me for multiple reasons.  First, I observed that political advertisement spending has risen monumentally over these four election periods, with spending on the Republican candidate going from $112,176,719 in 2000 to $933,670,840 in 2012.  This may be due to the increasing prevalence of social media in the United States.  The ability to target specific categories of users on platforms such as Facebook allows political parties to effectively target the key citizens they want to reach to increase voter turnout and/or to sway voters.  Second, I observed that in these four elections, neither major party consistently spent more money than the other party.  Further research should investigate what these changes can be attributed to, whether it is variation in fundraising ability, campaign strategy, or another factor.  One potential answer relates to incumbency; in each of these four elections, the challeger party spent more than the incumbent party did.  
+
+<font size="4"><b> Part 2: 2020 Tipping Point States and Advertisement Spending </b></font>
+
+In FiveThirtyEight's forecast for the 2020 election, the only three states with a higher than 10% chance of being the tipping state are Pennsylvania (25.6%), Florida (15.7%), and Wisconsin (15.2%) [2].  Thus, I used a dataset on advertisements aired between September 5, 2020 and September 27, 2020 and filtered for just these three states.  I graphed a bar plot to visualize the number of advertisements aired in each state by each candidate, below.
+
+![](/tippingpoint.png) 
+  
+It is clear that former Vice President Joe Biden is airing significantly more advertisements in these key states than President Donald Trump is.  If advertisements are effective in increasing turn out, Joe Biden is in good shape; he has a polling lead in all three of these swing states on FiveThirtyEight [2].  An alternative perspective is that Donald Trump's campaign may see these states as either locked down for him or unwinnable.  However, with the President trailing in these states' polls, I would advise that his campaign increases the amount of ads they air in them.
+  
+
+<font size="4"><b>Conclusions and Sources</b></font>
+
+In conclusion, political advertising has changed in both scope and methodology over the previous two decades.  Fundraising is increasingly crucial to campaigns.  Additionally, Joe Biden is airing more advertisements in the three states most likely to be the tipping point states in the 2020 election.  The President should increase the amount of ads his campaign runs in these states if he wants to make up for his polling deficit in the few weeks left in this campaign.
+
+<b>This week's prediction: Biden win. </b>
+
+Thank you for reading! You can follow my election modeling journey by checking this blog each Saturday through December.
+
+To complete this blog post, I utilized a September 2020 adverstisement dataset and a 2000-2012 advertisement ad dataset from the Gov 1347: Election Analytics course website.
+
+
+[1] https://www.forbes.com/sites/bradadgate/2019/09/03/the-2020-elections-will-set-another-ad-spending-record/#1a7f9e991836
+
+[2] https://projects.fivethirtyeight.com/2020-election-forecast/
