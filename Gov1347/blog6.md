@@ -43,7 +43,7 @@ FiveThirtEight forecasts a 48.0% vote share for Biden in Texas, which is signifi
 
 Thank you for reading! You can follow my election modeling journey by checking this blog each Saturday through December.
 
-To complete this blog post, I utilized a popular vote by state from 1948-2016 dataset, a polling average by state from 1968-2016 dataset, and a state demographic data from 1990 to 2018 datasetfrom the Gov 1347: Election Analytics course website.
+To complete this blog post, I utilized a popular vote by state from 1948-2016 dataset, a polling average by state from 1968-2016 dataset, and a state demographic data from 1990 to 2018 dataset from the Gov 1347: Election Analytics course website.
 
 
 [1] https://twitter.com/BetoORourke/status/1316241328422948866?s=20
