@@ -20,3 +20,6 @@ Election Blog - Serhiy Sokhan
 
 
 [Blog Post 10/10/2020](Gov1347/blog5.md)
+
+
+[Blog Post 10/17/2020](Gov1347/blog6.md)
