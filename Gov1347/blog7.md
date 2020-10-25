@@ -4,37 +4,40 @@ The COVID-19 pandemic has been world-changing and has become likely the most sal
 
 <font size="4"><b>Part 1: How have different states experienced the pandemic? </b></font>
 
-In Part 1, I analyzed how the coronavirus has affected the 50 states.  I used a dataset on COVID-19 data from 2/1/2020 - 10/10/2020 by county from the CDC, grouped and summarized it by state, and created a new variable: percentage of all deaths due to COVID-19.  Figure 1, below, demonstrates a visualization of each state's percentage of all deaths due to the coronavirus.  I used this variable because it may be a good indicator of the severity of the outbreaks in a state.
+In Part 1, I analyzed how the coronavirus has affected the 50 states.  I used a dataset on COVID-19 data from 2/1/2020 - 10/10/2020 by county from the CDC, grouped and summarized it by state, and created a new variable: percentage of all deaths due to COVID-19.  Figure 1, below, demonstrates a visualization of each state's percentage of all deaths due to the coronavirus.  I used this variable because it may be a good indicator of the severity of the outbreaks in a state.  The top four states by a percentage of deaths during this time period were New York (23.58%), New Jersey (21.14%), Connecticut (18.98%), and Massachusetts (16.87%).  This is because these Northeastern states were among the first to have outbreaks in the United States.  New York City alone had 35% of all COVID-19 cases in the United States on March 23rd [1].  As the virus spread to the rest of the country, states took various measures to contain the virus, including mask mandates, promoting social distancing, business restrictions, and others.  While this chart provides insights into the severity of the outbreaks in different states, it does not tell us much about how the pandemic affects the 2020 presidential election.
+
+Thus, I created a chart with the same data but only included the 7 states that have at least a 5% chance of being the tipping point state on the FiveThirtyEight forecast: Pennsylvania (28.4%), Wisconsin (13.1%), Florida (12.6%), Michigan (10.0%), North Carolina (6.2%), Arizona (5.5%), and Minnesota (5.5%) [2].  
 
 ![](/percentdeaths.png)  
 
-The line of best fit in this model had a y-intercept of 38.94% and a slope of -1.380.  This slope means that for every 1% increase in white people in Texas, the Democratic two-party vote share decreased by 1.38%.  It also means that every 1% decrease in white people is associated with a 1.38% increase in the Democratic two-party vote share.  The multiple R-squared on this model was 0.1669, indicating that 16.69% of the data fits the regression model.  
+It is clear that Arizona, Florida, Michigan, Minnesota, and Pennsylvania are similar in terms of percent of deaths due to COVID-19, with their percentages all in the 8.2 - 10.0% range.  The outliers are North Carolina with 5.10% and Wisconsin with 4.37%.  This difference caused me to question whether the lower percentage of deaths due to the coronavirus in North Carolina and Wisconsin would be reflected in the polling data.  The pandemic is a top issue in this fall's election and may be a major factor in people's decisions on who to vote for.  Pew Research released a poll in early October that shows former Vice President Joe Biden with a 17% advantage, 57%-40%, over President Trump in registered voters' confidence in his ability to "handle the public health impact of the coronavirus" [3].  Thus, in part 2, I analyze the polling in these swing states and look into whether Biden is polling worse in states where the coronavirus has caused a lower share of deaths.
 
 ![](/covidswing.png)
 
-Thus, this model is not very responsible for the variation in the Texan Democratic two-party vote share.  However, the data visualization provides interesting insights into the status of the 2020 race.  It is visible that as Texas gets more non-white, the higher the Democratic two-party vote-share gets.  If Joe Biden wants to end the Republicans 10 election cycle streak in Texas, his campaign must focus on appealing to and motivating turnout among people of color.
 
 <font size="4"><b> Part 2: How are swing states' polling numbers at the height of COVID-19? </b></font>
 
-In Part 2, I analyzed how the change in the women makeup of Texas from the previous presidential election affects the Texas Democratic two-party vote share.  I used the same methodology as in Part 1 except my independent variable was the change in the women makeup of Texas. 
+In Part 2, I used a dataset with 2020 election polls by state.  I filtered the dataset to only include polls that started on or after August 1,2020 to have a sample in which each state had experienced a COVID-19 summer.  I also only included polls that are rated at least an A- on FiveThirtyEight, as state polling can be more varied and inaccurate.  I then graphed the polling averages in these states, below.
 
 ![](/swingstatepolls.png) 
 
-The line of best fit in this model had a y-intercept of 41.39% and a slope of -8.416.  This slope means that for every 1% increase in women in Texas, the Democratic two-party vote share decreased by 8.416%.  The multiple R-squared on this model was 0.07366, indicating that this model is not very responsible for the variation in the Texan Democratic two-party vote share.  A more improved version of this model would use the change of <b> women voters </b> in Texas as the independent variable, not the change in the amount of women.  I hope to gather this data and recreate this model next week.  Since the men/women divide in Texas is based on biology, not politics, the demographic change percentage is nearly 0% for this category. 
+Biden has a clear lead in most of these swing states, but his leads in Florida and North Carolina are both within a 2.5% margin of error.  The theory in Part 1, that the lower percentage of all deaths due to COVID-19 in North Carolina and Wisconsin would hurt Biden or help Trump, does not have enough evidence to be proven.  On the one hand, Biden's lead in North Carolina is 2.09%, the smallest difference among these states, but on the other, Biden has a 6.27% lead in Wisconsin, one of his larger leads.  Further research would be required to make such a hypothesis statistically significant.
+
   
-
-
 <font size="4"><b>Conclusions and Sources</b></font>
 
-For the final portion of this week's analysis, I analyzed the change between Texas' demographics in 2016 and 2018 to see how it would affect the Democratic
-two-party vote share in 2020. 
+A key takeaway from this week's post is that the coronavirus pandemic is dangerous and will influence people's votes.  It is interesting to note that Biden has a polling lead in all of these likely tipping point states, despite President Trump winning all of them but Minnesota in 2016.  This bodes well for the former VP's chances and it is likely that the President's management of the pandemic hurts his own chances.
 
-<b>This week's prediction: still a Biden win. </b>
+<b>This week's prediction: Biden win. </b>
 
 Thank you for reading! You can follow my election modeling journey by checking this blog each Saturday through December.
 
-To complete this blog post, I utilized _____ from the Gov 1347: Election Analytics course website.
+To complete this blog post, I utilized a coronavirus dataset from the CDC and a 2020 polls dataset from the Gov 1347: Election Analytics course website.
 
 
-[1] https://projects.fivethirtyeight.com/2020-election-forecast/
+[1] https://abcnews.go.com/US/News/timeline-100-days-york-gov-andrew-cuomos-covid/story?id=71292880
+
+[2] https://projects.fivethirtyeight.com/2020-election-forecast/
+
+[3] https://www.pewresearch.org/politics/2020/10/09/amid-campaign-turmoil-biden-holds-wide-leads-on-coronavirus-unifying-the-country/
 
