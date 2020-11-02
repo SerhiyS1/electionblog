@@ -8,21 +8,26 @@ In Part 1, I analyzed how the coronavirus has affected the 50 states.  I used a 
 
 Thus, I created a chart with the same data but only included the 7 states that have at least a 5% chance of being the tipping point state on the FiveThirtyEight forecast: Pennsylvania (28.4%), Wisconsin (13.1%), Florida (12.6%), Michigan (10.0%), North Carolina (6.2%), Arizona (5.5%), and Minnesota (5.5%) [2].  
 
-![](/percentdeaths.png)  
+![](/usmapforecast.png)  
 
 It is clear that Arizona, Florida, Michigan, Minnesota, and Pennsylvania are similar in terms of percent of deaths due to COVID-19, with their percentages all in the 8.2 - 10.0% range.  The outliers are North Carolina with 5.10% and Wisconsin with 4.37%.  This difference caused me to question whether the lower percentage of deaths due to the coronavirus in North Carolina and Wisconsin would be reflected in the polling data.  The pandemic is a top issue in this fall's election and may be a major factor in people's decisions on who to vote for.  Pew Research released a poll in early October that shows former Vice President Joe Biden with a 17% advantage, 57%-40%, over President Trump in registered voters' confidence in his ability to "handle the public health impact of the coronavirus" [3].  Thus, in part 2, I analyze the polling in these swing states and look into whether Biden is polling worse in states where the coronavirus has caused a lower share of deaths.
 
-![](/covidswing.png)
+![](/gopforecast.png)
 
 
 <font size="4"><b> Part 2: How are swing states' polling numbers at the height of COVID-19? </b></font>
 
 In Part 2, I used a dataset with 2020 election polls by state.  I filtered the dataset to only include polls that started on or after August 1,2020 to have a sample in which each state had experienced a COVID-19 summer.  I also only included polls that are rated at least an A- on FiveThirtyEight, as state polling can be more varied and inaccurate.  I then graphed the polling averages in these states, below.
 
-![](/swingstatepolls.png) 
+![](/gopforecastswing.png) 
 
 Biden has a clear lead in most of these swing states, but his leads in Florida and North Carolina are both within a 2.5% margin of error.  The theory in Part 1, that the lower percentage of all deaths due to COVID-19 in North Carolina and Wisconsin would hurt Biden or help Trump, does not have enough evidence to be proven.  On the one hand, Biden's lead in North Carolina is 2.09%, the smallest difference among these states, but on the other, Biden has a 6.27% lead in Wisconsin, one of his larger leads.  Further research would be required to make such a hypothesis statistically significant.
 
+<font size="4"><b> Part 3: How are swing states' polling numbers at the height of COVID-19? </b></font>
+
+In Part 2, I used a dataset with 2020 election polls by state.  I filtered the dataset to only include polls that started on or after August 1,2020 to have a sample in which each state had experienced a COVID-19 summer.  I also only included polls that are rated at least an A- on FiveThirtyEight, as state polling can be more varied and inaccurate.  I then graphed the polling averages in these states, below.
+
+![](/finalprediction.png) 
   
 <font size="4"><b>Conclusions and Sources</b></font>
 
