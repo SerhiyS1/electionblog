@@ -29,3 +29,5 @@ Election Blog - Serhiy Sokhan
 [Blog Post 11/1/2020 - Final Prediction](Gov1347/blog8.md)
 
 [Blog Post 11/23/2020 - Reflection](Gov1347/reflection.md)
+
+[Blog Post 12/10/2020 - Media Narrative Analysis](Gov1347/narrative.md)
