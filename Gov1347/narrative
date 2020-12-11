@@ -1,0 +1,59 @@
+<font size="6"><b>Blog Post 12/10/2020: 2020 Election Narrative </b></font>
+
+Welcome to my final blog post of the semester! Thank you for reading along throughout this tumultuous election period.  While President Donald Trump has not yet formally conceded the election to President-elect Joe Biden, all 50 states and the District of Columbia have now certified their election results [1].  With the Electoral College voting next week and President Trump's legal efforts to overturn the election failing thus far, it is evident that Joe Biden will be sworn in as the 46th President of the United States in January 2021.  So, how exactly did Joe Biden win the presidency with the most votes of any presidential ticket in American history?  The media is running several narratives: young Latino mobilization was high, the suburbs moved away from Trump, COVID-19 and lockdowns benefitted and hurt both candidates in different ways, and that Black mobilization helped Biden secure the 270 electoral vote threshold.  I, however, will be testing the plausibility of a media narrative that is not as popular: <b> Joe Biden won the election due to gains in the white men demographic, specifically working class men. </b>
+
+<font size="4"><b>Part 1: Background Information</b></font>
+
+Before I go into analyzing data that pertains to the white male vote in 2020 and testing the plausibility of the narrative, I want to provide more context about the narrative itself.  In the Democratic primary and general election, Joe Biden ran on presenting himself as a moderate, despite having potentially the most progressive agenda of any major party nominee in American history; he supported a public option for healthcare, making the power sector carbon-free by 2035, net-zero carbon emissions by 2050, a $15 minimum wage, two years of free community college, and doubling pell grants [2].  His contrast with the more left-leaning candidates in the Democratic primary, such as Senators Bernie Sanders and Elizabeth Warren, allowed Biden to portray himself as a moderate candidate that sought to heal a politically-divided America.  Biden's self-portrayal as a moderate is a large part of the narrative that white men helped him win the presidency.  Furthermore, Biden's historical roots of being a middle-class man born in Pennsylvania and living in Delaware could have strengthened his everyman Joe, no pun intended, political aesthetic.  
+
+Outside of Joe Biden's public perception, the narrative is aided by Biden's actual campaign messaging.  While former Secretary of State Hillary Clinton called Trump supporters deplorable, Biden took an approach that could make white, working class men relate to him.  In fact, Joe Biden called President Trump out and showcased his ability to connect with working class voters by stating, <i>"I’ve dealt with guys like Donald Trump my whole life, who would look down on us because we didn’t have a lot of money or your parents didn’t go to college. Guys who think they’re better than you. Guys who inherit everything they’ve ever gotten in their life and squander it"</i>[3].   The question remains: were these political tactics effective enough to shift white men's voting patterns to the point that they won the election for Biden?
+
+It is also important to consider the context of the 2020 electoral map.  In 2016, Democrats shockingly lost the Blue Wall states of Michigan, Wisconsin, and Pennsylvania for the first time in multiple decades.  Hillary Clinton lost these three states by a combined margin of roughly 80,000 votes. In 2020, Biden ended up winning Pennsylvania by roughly 81,000 votes, Michigan by about 155,000 votes, and Wisconsin by about 20,000 votes [4]. While Joe Biden also managed to flip Georgia and Arizona to the Democratic party, firsts for each state since the President Bill Clinton days, he only needed to win back Pennsylvania, Michigan, and Wisconsin. His Midwestern focus and appeal were palpable, with references to his hometown of Scranton, Pennsylvania appearing often in his speeches. 
+
+Furthermore, Biden often referred to himself as "blue-collar Joe" and pledged to be the "strongest labor president you ever had" [5]. This political messaging further aids the narrative that Biden won by appealing to white and working class men.  These self-proclamations of being pro-union, pro-working class correlated well with his electoral strategy, which relied on winning the aforementioned three Midwestern states.  Both Michigan and Pennsylvania have a top-15 in the nation union membership rate [6].  Thus, Biden's background and his campaign messaging are consistent with the narrative that he won due to increased support among white and working class men.
+
+
+
+<font size="4"><b> Part 2: Testing the Narrative </b></font>
+
+My main question this week is whether or not the data is consistent with the narrative that Joe Biden won the election due to increased support from white and working class men.  To test this narrative, I came up with two mechanisms to test if the initial evidence is consistent or inconsistent with the narrative.
+
+First, I compared the 2020 Election Exit Poll data from CBS News with the 2016 CNN Election Exit Poll Data [7] [8]. I took solely the exit poll data by Race and Sex and manually inputted it into an Excel spreadsheet.  I loaded the dataset into R and created a Democratic Margin variable to compare how each of the 6 major Race and Sex combinations voted in 2016 and 2020.  The visualization, which may be surprising to many, is below.
+
+![](/marginsbydemographic.png) 
+  
+Joe Biden's margin was lower than Hillary Clinton's margin in every major Race and Sex combination outside of white men.  Considering that Secretary Clinton lost the election and Joe Biden won, it seems that the data is consistent, but not conclusive, with the narrative that Joe Biden won the presidency due to gains with white male voters.  The Democratic margin decreased by at least 5% with Black men, Black women, Latino men, and Latina women.  It also decreased by 2% among white women.  Thus, an 8% positive gain among white men is certainly an achievement by Joe Biden that may have influenced the election outcome.  The data is compatible with the narrative, but more research is needed to make such data statistically significant.
+
+After analyzing the exit polls by Race and Sex combinations, I decided to test the narrative against the media perceptions and characterizations of each candidate.  I used the Stanford Cable TV News Analyzer to research how often the phrase "working class" appeared on cable news closed caption transcripts in relation to Joe Biden, Donald Trump, and Hillary Clinton.  I sought out the frequency of this phrase between June 1st and election day for both the 2016 and 2020 elections, as both Biden and Clinton secured their party's nominations during that month.  First, take a look at the visualization for the 2016 election:
+
+![](/clintonworkingclass.png) 
+  
+Throughout nearly the entire campaign cycle, then-nominee Donald Trump was more consistently associated with the phrase "working class".  In fact, the phrase was near his name in the transcripts at nearly double the rate it was near Hillary Clinton. However, as I wrote in Part 1, Joe Biden portrayed himself as the candidate of the working class and union members often.  Does the Stanford Cable TV News Analyzer demonstrate Biden outperforming Clinton in being tied to the working class by the media?  In the visualization below, one can see that yes, Biden did outperform Clinton.  Not only did he outperform Clinton, but he was also associated with the phrase "working class" by cable news more than Donald Trump throughout nearly the entire campaign cycle.
+
+![](/bidenworkingclass.png)
+  
+President-elect Joe Biden seems to have been associated more with the working class than President Donald Trump was, furthering the consistency of elementary data in supporting the narrative.
+
+<font size="4"><b>Conclusions and Sources</b></font>
+
+To conclude, it seems likely that Joe Biden's campaign did something right in gaining white and working class men.  The evidence is not conclusive enough to identify this narrative as a significant explanatory variable for his electoral college victory, but it is also not conclusive enough to reject the narrative.  Joe Biden's middle class, Midwestern background combined with his decades of pro-worker and pro-union support may have been a crucial factor in his gains among white and working class male voters.  Future research on this narrative should also include socioeconomic and education data about Biden's white male voters to see if the majority of his white-male gains over Hillary Clinton's campaign can be attributed to working-class voters, college-educated voters, city-dwellers, or suburban-dwellers.
+
+Thank you again for following the blog throughout the semester.  I have found Election Analytics to be attention-grabbing and puzzle-like.  I plan to forecast presidential elections in the future.  If you'd like to see those forecasts, do not hesitate to reach out to me on Twitter (@SerhiySokhan) or LinkedIn (https://www.linkedin.com/in/serhiysokhan/).
+
+
+
+[1] https://www.cnn.com/2020/12/09/politics/2020-election-results-certified/index.html
+
+[2] https://www.washingtonpost.com/opinions/2020/10/27/bidens-temperament-is-moderate-his-agenda-is-transformative/
+
+[3] https://hbr.org/2020/11/how-biden-won-back-enough-of-the-white-working-class
+
+[4] https://www.nytimes.com/interactive/2020/11/03/us/elections/results-president.html
+
+[5] https://www.foxbusiness.com/economy/biden-union-jobs-us-economy-meeting-ceos
+
+[6] https://www.bls.gov/opub/ted/2020/hawaii-and-new-york-had-highest-union-membership-rates-the-carolinas-the-lowest-in-2019.htm
+
+[7] https://www.cbsnews.com/elections/2020/united-states/president/exit-poll/
+
+[8] https://www.cnn.com/election/2016/results/exit-polls
